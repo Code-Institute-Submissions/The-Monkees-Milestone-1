@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Colors*/
+
+.bg-color-name-title {
+    background-color: white;
+    color: red;
+    font-family: "Modak", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    text-align: center;
+}
+
+.ui-menu-color-home {
+    background-color: yellow;
+    color: red;
+    font-family: "Indie Flower", cursive;
+}
+
+.ui-menu-color-meettheband {
+    background-color: yellow;
+    color: red;
+    font-family: "Indie Flower", cursive;
+}
+
+.ui-menu-color-gallery {
+    background-color: yellow;
+    color: red;
+    font-family: "Indie Flower", cursive;
+}
+
+.ui-menu-color-listen {
+    background-color: yellow;
+    color: red;
+    font-family: "Indie Flower", cursive;
+}
+
+.ui-menu-color-tour {
+    background-color: yellow;
+    color: red;
+    font-family: "Indie Flower", cursive;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Modak", sans-serif;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+/*--------------------------------------------Footer*/
+
+footer {
+    background-color: white;
+    color: red;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    font-size: 13px;
+    line-height: 7px;
+    text-align-last: right;
+    color: red;
+    background: white;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
