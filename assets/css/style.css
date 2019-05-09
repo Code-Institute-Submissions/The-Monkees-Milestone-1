@@ -3,7 +3,7 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: white;
+    background-color: yellow;
     color: red;
     font-family: "Modak", sans-serif;
     font-weight: 100;
@@ -12,33 +12,31 @@
 }
 
 .ui-menu-color-home {
-    background-color: yellow;
-    color: red;
-    font-family: "Indie Flower", cursive;
+    background-color: red;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Just Another Hand", cursive;
 }
 
 .ui-menu-color-meettheband {
-    background-color: yellow;
-    color: red;
-    font-family: "Indie Flower", cursive;
+    background-color: red;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Just Another Hand", cursive;
 }
 
-.ui-menu-color-gallery {
-    background-color: yellow;
-    color: red;
-    font-family: "Indie Flower", cursive;
-}
-
-.ui-menu-color-listen {
-    background-color: yellow;
-    color: red;
-    font-family: "Indie Flower", cursive;
+.ui-menu-color-media {
+    background-color: red;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Just Another Hand", cursive;
 }
 
 .ui-menu-color-tour {
-    background-color: yellow;
-    color: red;
-    font-family: "Indie Flower", cursive;
+    background-color: red;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Just Another Hand", cursive;
 }
 
 .row-table {
@@ -50,30 +48,171 @@
     float: none;
 }
 
-.section-heading {
-    font-family: "Modak", sans-serif;
-    font-weight: 300;
-    margin-top: 5px;
-    margin-bottom: 40px;
+.row-table {
+    display: table;
 }
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+
+/*--------------------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
+.name {
+    font-weight: 100;
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.title {
+    font-weight: 200;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Indie Flower", cursive;
+    color: red;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 30px;
+    padding: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: bold;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    font-size: 25px;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.logo {
+    background: url("../images/band.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+    margin-left: 0;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.form-group {
+    margin-left: 10px;
+    background: red;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Just Another Hand", cursive;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.btn {
+    font-family: "Just Another Hand", cursive;
+    color: red;
+    background: yellow;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 25px;
+    margin-left: 85%;
+    margin-bottom: 10px;
+}
+
+.text-muted {
+    color: #fff;
+}
+
+/*--------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    max-width: 100%;
+}
+
 
 /*--------------------------------------------Footer*/
 
 footer {
-    background-color: white;
+    background-color: yellow;
     color: red;
-    min-height: 120px;
-    margin: 0;
+    min-height: 80px;
+    text-align: center;
+}
+
+.general-sub {
+    font-size: 25px;
+    font-family: "Just Another Hand", cursive;
+    text-align: center;
+    margin-top: 25px;
 }
 
 .social-links li a i {
+    text-align: center;
     width: 32px;
-    height: 32px;
-    font-size: 13px;
+    font-size: 20px;
     line-height: 7px;
-    text-align-last: right;
     color: red;
-    background: white;
+    background: yellow;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
