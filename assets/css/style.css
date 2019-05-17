@@ -81,6 +81,12 @@ header {
     color: red;
 }
 
+.short-bio {
+    padding-left: 75px;
+    padding-right: 75px;
+    float: none;
+}
+
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
@@ -164,6 +170,7 @@ header {
     background: yellow;
     font-size: 25px;
     float: right;
+    padding-right: 25px;
     
 }
 
