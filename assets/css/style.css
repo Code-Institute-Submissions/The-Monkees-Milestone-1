@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+.element-style {
+    height: calc(100vh - 400px);
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: yellow;
+}
+
 /*--------------------------------------------Colors*/
+
 
 .bg-color-name-title {
     background-color: yellow;
@@ -67,13 +82,13 @@ header {
 }
 
 .name {
-    font-weight: 100;
+    font-weight: 300;
     font-size: 60px;
     margin-top: 10px;
 }
 
 .title {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 40px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -153,11 +168,36 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
+.contact-info  {
+    display: block;
+    width: 100%;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-right: 30px;
+    font-weight: 300;
+    float: right;
+}
+
+.img-rounded {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.left-image {
+    display: inline-block;
+    height: 300px;
+    width: 360px;
+    padding-top: 50px;
+    padding-left: 100px;
+    float: none;
+}
+
 .form-group {
     margin-left: 0px;
     margin-bottom: 0px;
     background: red;
-    padding: 30px 30px 30px 30px;
+    padding: 10px 10px 10px 10px;
     font-family: "Indie Flower", cursive;
     color: #fff;
     font-size: 20px;
@@ -173,6 +213,13 @@ header {
     
 }
 
+.short-bio {
+    font-weight: 500;
+    font-size: 28px;
+    float: none;
+    text-align: center;
+}
+
 .form-text {
     color: white;
 }
@@ -180,7 +227,8 @@ header {
 /*--------------------------------------------Band Cards.css*/
 
 .band-cards {
-    padding-bottom: 0;
+    padding-top: 75px;
+    padding-bottom: 75px;
     background-color: red;
     font-family: "Indie Flower", cursive;
     color: white;
@@ -192,6 +240,8 @@ header {
     background-color: red;
     font-family: "Indie Flower", cursive;
     color: white;
+    text-align: center;
+    font-size: 23px;
 }
 
 .member-head {
@@ -203,7 +253,7 @@ header {
     font-family: "Indie Flower", cursive;
     background-color: red;
     color: white;
-    font-size: 18px;
+    font-size: 23px;
     padding-left: 10px;
 }
 
@@ -219,6 +269,7 @@ header {
 .tour-container {
     background-color: red;
     color: yellow;
+    font-weight: 500;
     text-align: center;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -227,6 +278,7 @@ header {
 .tour-header {
     font-family: "Modak", cursive;
     font-size: 40px;
+    font-weight: 500;
     padding-top: 5px;
     padding-bottom: 20px;
 }
@@ -255,6 +307,14 @@ header {
 }
 
 /*--------------------------------------------Media*/
+
+.audio-links {
+    float: none;
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
 
 .media-content {
     background-color: yellow;
@@ -296,7 +356,8 @@ footer {
 }
 
 .general-sub {
-    font-size: 25px;
+    padding-top: 20px;
+    font-size: 35px;
     font-family: "Just Another Hand", cursive;
     text-align: center;
     margin-top: 25px;
@@ -305,7 +366,8 @@ footer {
 .social-links li a i {
     text-align: center;
     width: 32px;
-    font-size: 20px;
+    font-size: 30px;
+    padding-top: 10px;
     line-height: 7px;
     color: red;
     background: yellow;
