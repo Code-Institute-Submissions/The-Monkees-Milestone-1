@@ -14,7 +14,7 @@ With this website, The Monkees hoped to promote their band and music. They wante
 
 My wireframes were made using Balsamiq. 
 
-**(Balsamiq wireframes here)**
+"assets/balsamiq/Milestone1_The_Monkees.bmpr"
 
 
 
@@ -42,14 +42,7 @@ For this website I have used -
 
 # Testing
 
-**(Testing Information)**
-
-
-
-# Deployment
-
-**(Deployment Information)**
-
+I used the Google Chrome Developer tools to test the responsiveness of the website. I tried on both a Mac computer and a Google Chromebook.
 
 
 # Credits
