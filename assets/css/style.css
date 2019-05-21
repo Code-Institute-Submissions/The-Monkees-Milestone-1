@@ -169,13 +169,12 @@ header {
 }
 
 .contact-info  {
-    display: block;
+    display: inline-block;
     width: 100%;
     font-size: 25px;
     padding-top: 5px;
     padding-right: 30px;
     font-weight: 300;
-    float: right;
 }
 
 .img-rounded {
@@ -185,12 +184,9 @@ header {
 }
 
 .left-image {
-    display: inline-block;
-    height: 300px;
-    width: 360px;
     padding-top: 50px;
-    padding-left: 100px;
-    float: none;
+    padding-right: 10px;
+    vertical-align: middle;
 }
 
 .form-group {

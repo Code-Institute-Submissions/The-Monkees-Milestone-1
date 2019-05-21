@@ -12,9 +12,12 @@ I have used bright colours which are associated with The Monkees and the era in 
 
 With this website, The Monkees hoped to promote their band and music. They wanted the site to look attractive to their main fanbase. They wanted to showcase their music and photos. They also wanted to show that they are available for gigs such as weddings. Using the guidelines they have provided I was able to assist in each area of their request. The pages are separated to ensure an easier user experience and better navigation.
 
-My wireframes were made using Balsamiq. 
+My wireframes were made using Balsamiq.
 
-"assets/balsamiq/Milestone1_The_Monkees.bmpr"
+## Wireframe Mockups
+
+[Balsamiq Mockups](documents/mockup/Milestone1_The_Monkees.pdf)
+
 
 
 
