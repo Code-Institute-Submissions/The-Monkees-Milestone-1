@@ -7,6 +7,8 @@ A Media page which contains photos, music and a video of the bands performances.
 Lastly, a Bookings page where visitors can contact to find availability of the band.
 I have also included an area where visitors can sign up to the Monkees mailing list.
 
+![Screenshot](assets/images/homescreengrab.png)
+
 
 ## UX
 
