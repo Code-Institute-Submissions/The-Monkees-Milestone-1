@@ -88,7 +88,7 @@ All files passed validation testing at [https://validator.w3.org/nu/#textarea](h
 
 ## Deployment
 
-My website is currently deployed on Github Pages - https://donna1990.github.io/the-monkees-milestone-1/
+My website is currently deployed on Github Pages - https://donna1990.github.io/The-Monkees-Milestone-1/
 
 I was able to deploy the website here by going to my repository in which all the files are saved.
 
