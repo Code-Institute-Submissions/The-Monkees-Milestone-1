@@ -68,37 +68,42 @@
         </nav>
     </header>
 
+  <div class="page-title">
+  <p>Media</p>
+  </div>
+
     <div class="gallery-images">
         <div class="gallery">
+            <p class="media-titles">Images & Album Art</p>
             <div class="row">
                 <div class="col-md-4">
                     <div class="img-rounded">
-                        <img src="assets/images/cover.jpg" alt="Cover" width="360" height="360">
+                        <img src="assets/images/cover.jpg" alt="Cover" width="200" height="200">
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="img-rounded">
-                        <img src="assets/images/cover1.jpg" alt="Cover 1" width="360" height="360">
+                        <img src="assets/images/cover1.jpg" alt="Cover 1" width="200" height="200">
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="img-rounded">
-                        <img src="assets/images/cover2.png" alt="Cover 2" width="360" height="360">
+                        <img src="assets/images/cover2.png" alt="Cover 2" width="200" height="200">
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="img-rounded">
-                        <img src="assets/images/cover3.jpg" alt="Cover 3" width="360" height="360">
+                        <img src="assets/images/cover3.jpg" alt="Cover 3" width="200" height="200">
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="img-rounded">
-                        <img src="assets/images/album.jpg" alt="Album" width="360" height="360">
+                        <img src="assets/images/album.jpg" alt="Album" width="200" height="200">
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="img-rounded">
-                        <img src="assets/images/album2.jpg" alt="Album 2" width="360" height="360">
+                        <img src="assets/images/album2.jpg" alt="Album 2" width="200" height="200">
                     </div>
                 </div>
             </div>
@@ -106,40 +111,67 @@
     </div>
 
     <div class="audio-links">
+            <p class="media-titles">Audio Clips</p>
         <div>
             <p>Clarksville</p><audio controls>
-  <source src="assets/audio/Clarksville.mp3" type="audio/mp3">
+  <source src="assets/audio/Clarksville.mp3" type="audio/mp3" class="audio-clip">
   Your browser does not support this audio file.
 </audio></div><br>
         <div>
             <p>Daydream Believer</p><audio controls>
-  <source src="assets/audio/DaydreamBeliever.mp3" type="audio/mp3">
+  <source src="assets/audio/DaydreamBeliever.mp3" type="audio/mp3" class="audio-clip">
   Your browser does not support this audio file.
 </audio></div><br>
         <div>
             <p>I'm A Believer</p><audio controls>
-  <source src="assets/audio/ImABeliever.mp3" type="audio/mp3">
+  <source src="assets/audio/ImABeliever.mp3" type="audio/mp3" class="audio-clip">
   Your browser does not support this audio file.
 </audio></div><br>
         <div>
             <p>Stepping Stone</p><audio controls>
-  <source src="assets/audio/SteppingStone.mp3" type="audio/mp3">
+  <source src="assets/audio/SteppingStone.mp3" type="audio/mp3" class="audio-clip">
   Your browser does not support this audio file.
 </audio>
         </div>
     </div>
 
-
+<div class="video-player">
+            <p class="media-titles">Music Video</p>
     <div class="embed-responsive embed-responsive-16by9 media-video">
-        <video width="640" height="480" controls="controls" preload="none">
+        <video controls="controls" preload="none">
 <source src="assets/videos/TheMonkees.mp4">
 Your browser does not support the video tag.
 </video>
     </div>
+<p>Daydream Believer by The Monkees</p>
+    </div>
 
-      <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy; 1966-2019 The Monkees &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  <footer class="container">
+    <p>&copy; 1966-2019 The Monkees &middot;
+    <div id="footer-details" class="row">
+            <div class="col-12">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com/TheMonkees/">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/themonkees?lang=en">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com/user/themonkees">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div></p> 
   </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script>
