@@ -1,20 +1,31 @@
 # Milestone 1 - The Monkees
 
-My First Milestone Project
-
-This project is the first of my Milestone projects while studying Full Stack Software Development with Code Institute. I have been tasked with creating a website which is responsive and appeals to the target audience of the popular band The Monkees. 
-
-I have used bright colours which are associated with The Monkees and the era in which they are prominent. I have used fun fonts which match the vibe that the band exudes. I have included a page containing the bands media, such as photos, videos and audio clips. Their tour information is included on a separate page. I also have a Meet the Band page, in which each member of the band has a short bio. On the homepage I have included some information about the band as a whole and a contact form for use in booking the band for gigs.
-
+This website was created for the hugely popular 1960's band The Monkees.
+It includes a Home page where visitors can connect with the bands social media. 
+A Meet The Band page which has a quick bio of the band and it's members.
+A Media page which contains photos, music and a video of the bands performances.
+Lastly, a Bookings page where visitors can contact to find availability of the band.
+I have also included an area where visitors can sign up to the Monkees mailing list.
 
 
 # UX
 
-With this website, The Monkees hoped to promote their band and music. They wanted the site to look attractive to their main fanbase. They wanted to showcase their music and photos. They also wanted to show that they are available for gigs such as weddings. Using the guidelines they have provided I was able to assist in each area of their request. The pages are separated to ensure an easier user experience and better navigation.
+The purpose of this project was to build a static (front-end only) website to promote the popular 1960's band, The Monkees.
+The target audience for this website is The Monkees broad and ever growing fanbase. They would need to be able to view and listen to the bands content, contact the band to make bookings and get to know the band. -
 
-My wireframes were made using Balsamiq.
+To ensure that the target audience have the best experience, I have included - 
+
+- Meet The Band bios.
+- Social Media Links.
+- A contact form for bookings.
+- A music video.
+- Audio files.
+- An image gallery.
+
 
 ## Wireframe Mockups
+
+My wireframes were made using Balsamiq.
 
 [Balsamiq Mockups](documents/mockup/Milestone1_The_Monkees.pdf)
 
@@ -23,23 +34,32 @@ My wireframes were made using Balsamiq.
 
 # Features
 
-- The Monkees header appears on all pages.
-- The title links are Home, Meet The Band, Media and Tour. This is visible across all pages.
-- Home - On the Home page we have an image link to the Meet The Band page. We also have a form to cotact and book gigs with the band.
-- Meet The Band - This page has portraits of each of the band members along with a short bio.
-- Media - On the Media page, we start off with a grouping of images provided by the band. This is followed by a video and afterwards some audio clips, these were also provided by the band.
-- Tour - The Tour page contains a schedule for the bands upcoming UK and US tour.
+## Navbar -
+- Includes Mailing List Sign Up.
+
+## Home -
+- Carousel of band images, including links to further pages.
+- Links to Facbook, Twitter and YouTube pages belonging to the band.
+
+## Meet the Band -
+- Includes some images and short bios of the band and it's members.
+
+## Media -
+- Image gallery of photos provided by the band.
+- Video provided by the band of The Monkees performing Daydream Believer.
+- Audio of 4 songs chosen and provided by the band.
+
+## Bookings -
+- A contact form for prospective clients to hire the band for their events.
 
 
 
 # Technologies Used
 
 For this website I have used -
-- HTML5
-- CSS3
-- Bootstrap
-- Google Fonts
-- Font Awesome
+- HTML5 - This was used as the layout to fully build the website
+- CSS - This was used to style the website
+- Bootstrap - This was used to get the layout up and running quickly and also use grids to help with the responsive design
 
 
 
