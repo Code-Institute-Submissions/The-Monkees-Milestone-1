@@ -104,7 +104,7 @@ I was able to deploy the website here by going to my repository in which all the
 - Band Bio - Taken from [The Monkees](https://en.wikipedia.org/wiki/The_Monkees) Wikipedia page.
 - Micky Dolenz Bio - Taken from the [Micky Dolenz](https://en.wikipedia.org/wiki/Micky_Dolenz) Wikipedia page.
 - Peter Tork - Taken from the [Peter Tork](https://en.wikipedia.org/wiki/Peter_Tork) Wikipedia page.
-- Davy Jones - Taken from the [Davy Jones](https://en.wikipedia.org/wiki/Davy_Jones_(musician) Wikipedia page.
+- Davy Jones - Taken from the [Davy Jones](https://en.wikipedia.org/wiki/Davy_Jones_(musician)) Wikipedia page.
 - Michael Nesmith - Taken from the [Michael Nesmith](https://en.wikipedia.org/wiki/Michael_Nesmith) Wikiedia page.
 
 ### Acknowledgements
